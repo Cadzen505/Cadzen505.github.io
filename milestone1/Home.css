@@ -5,9 +5,7 @@ body{
 
 logo{
     background-color: black;
-    padding-top: 15rem;
-    padding-right : 23.2rem;
-    padding-bottom: 1.35rem;
+    
 }
 
 header{
@@ -15,5 +13,7 @@ header{
     text-align: center;
     color: white;
 
+    padding-top: 1px;
     background-color: darkslategray;
+    padding-bottom: 1px;
 }
