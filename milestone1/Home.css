@@ -5,10 +5,12 @@ body{
 
 logo{
     background-color: black;
+    padding-top: 15rem;
+    padding-right : 23.2rem;
+    padding-bottom: 1.35rem;
 }
 
 header{
-    padding: 0.75rem 1.5rem;
 
     text-align: center;
     color: white;
