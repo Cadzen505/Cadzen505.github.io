@@ -1,6 +1,12 @@
+body{
+    background-color: darkgray;
+}
+
 h1{
     text-align: center;
     color: white;
+
+    background-color: darkslategray;
 }
 
 header{
