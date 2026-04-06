@@ -17,3 +17,7 @@ header{
     background-color: darkslategray;
     padding-bottom: 1px;
 }
+
+nav {
+    background-image: none;
+}
