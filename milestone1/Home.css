@@ -1,11 +1,12 @@
 body{
+    grid: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     background-color: darkgray;
     margin: 0;
 }
 
 logo{
     background-color: black;
-    
+    padding-bottom: 6rem;
 }
 
 header{
@@ -17,12 +18,15 @@ header{
     background-color: darkslategray;
     padding-bottom: 1px;
     background-position: 10rem;
+    padding-bottom: 5rem;
 }
 
 nav {
     padding-bottom: 11rem;
-
+/*
     background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Geometry_Dash_Assets/Geometry_Dash_Background.png");
+    */
     background-size:cover;
     background-position: center;
+    background-color: white;
 }
