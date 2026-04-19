@@ -57,7 +57,3 @@ nav {
 .carousel-item.active {
     display: block; /* Only show the one with the active class */
 }
-
-footer{
-    text-align:justify;
-}
