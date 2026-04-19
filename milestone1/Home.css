@@ -33,21 +33,19 @@ nav {
 }
 
 /* Individual Backgrounds */
-.home-bg {
-    background-image: url("your-home-image.png");
+.gd-bg {
+    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Geometry_Dash_Assets/Geometry_Dash_Background.png");
 }
 
 .minecraft-bg {
     background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/Minecraft_Menu.jpg");
 }
 
-.gd-bg {
-    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Geometry_Dash_Assets/Geometry_Dash_Background.png");
-}
-
 /* Styling the links so they are centered and visible */
 .carousel-item {
     display: none; /* Hide all slides by default */
+    align-items: center;   /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
     height: 15rem;
     background-size: cover;
     background-position: center;
