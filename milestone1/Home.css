@@ -2,6 +2,8 @@ body{
     grid: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
     background-color: darkgray;
     margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 logo{
@@ -54,4 +56,8 @@ nav {
 
 .carousel-item.active {
     display: block; /* Only show the one with the active class */
+}
+
+footer{
+    text-align:justify;
 }
