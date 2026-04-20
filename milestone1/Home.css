@@ -22,7 +22,6 @@ header{
 }
 
 nav {
-    padding: 0; /* Remove padding here so the carousel fills the space */
 }
 
 .carousel-item {
@@ -38,7 +37,6 @@ nav {
 }
 
 .minecraft-bg {
-    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/Minecraft_Menu.jpg");
     background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/Minecraft_Menu.jpg");
 }
 
