@@ -22,7 +22,12 @@ header{
 }
 
 nav {
+    .Geometry_Dash_Logo{
+        padding-top: 2rem;
+    }
+
     .Geometry_Dash_Button{
+        padding-top: 1.25rem;
     }
 
     &:active .Geometry_Dash_Button{
