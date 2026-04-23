@@ -4,44 +4,27 @@
 }
 
 body{
+    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/mc_server_background.webp");
     grid: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    background-color: darkgray;
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bolder;
-}
 
-logo{
-    background-color: black;
-}
-
-header{
-
+    color: white;   
     text-align: center;
-    color: white;
-
-    padding-top: 1px;
-    background-color: darkslategray;
-    padding-bottom: 1px;
-    background-position: 10rem;
+    font-family: Minecraftia;
 }
 
-nav {
-    .Geometry_Dash_Logo{
-        padding-top: 2rem;
-    }
+.dark_background{
+    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/mc_server_background.webp");
+    filter: brightness(40%);
 
-    .Geometry_Dash_Button{
-        padding-top: 1.25rem;
-    }
+    padding-bottom: 19rem;
+}
+.content{
+    filter: brightness(100%);
+    position: relative;: 3rem;
+}
 
-    &:active .Geometry_Dash_Button{
-        transform: scale(1.2);
-    }
-
-    .Minecraft_logo{
-        padding-bottom: 1.65rem;
-    }
+footer {
 
     a {
         color: inherit; 
@@ -50,7 +33,7 @@ nav {
 
     table, tr, th, td {
         margin: 0 auto;
-        border: 2px solid #000;
+        border: 2px solid black;
         box-shadow: inset -2px -4px #0004, inset 2px 2px rgba(255, 255, 255, 0.5);
         cursor: pointer;
 	    overflow: hidden;
@@ -78,51 +61,4 @@ nav {
         
 
     }
-}
-
-.carousel-item {
-    height: 15rem; /* Set a height for your nav bar area */
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
-/* Individual Backgrounds */
-.gd-bg {
-    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Geometry_Dash_Assets/Geometry_Dash_Background.png");
-}
-
-.minecraft-bg {
-    background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/Minecraft_Menu.webp");
-}
-
-.mc-button {
-	height: var(--btn-size);
-	width: calc(var(--btn-size) * 10);
-	cursor: pointer;
-	overflow: hidden;
-	white-space: nowrap;
-	user-select: none;
-
-	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
-	image-rendering: pixelated;
-	border: 2px solid #000;
-	
-	/* Mouse over */
-	
-	
-}
-        /* Styling the links so they are centered and visible */
-.carousel-item {
-    display: none; /* Hide all slides by default */
-    align-items: center;   /* Centers text vertically */
-    justify-content: center; /* Centers text horizontally */
-    height: 15rem;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
-.carousel-item.active {
-    display: block; /* Only show the one with the active class */
 }
