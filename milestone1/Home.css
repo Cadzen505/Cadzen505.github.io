@@ -37,7 +37,6 @@ nav {
 
     &:active .Geometry_Dash_Button{
         transform: scale(1.2);
-        cubic-bezier(0.34, 1.56, 0.64, 1);
     }
 
     .Minecraft_logo{
