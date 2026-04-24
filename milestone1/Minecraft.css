@@ -17,11 +17,12 @@ body{
     background-image: url("https://raw.githubusercontent.com/Cadzen505/Cadzen505.github.io/main/Minecraft_Assets/mc_server_background.webp");
     filter: brightness(40%);
 
-    padding-bottom: 19rem;
+    padding-bottom: 15rem;
+    padding-top: 4rem;
+
 }
 .content{
     filter: brightness(100%);
-    position: relative;: 3rem;
 }
 
 footer {
@@ -31,18 +32,19 @@ footer {
         text-decoration: none;
     }
 
-    table, tr, th, td {
+    table, tr, td {
         margin: 0 auto;
         border: 2px solid black;
         box-shadow: inset -2px -4px #0004, inset 2px 2px rgba(255, 255, 255, 0.5);
         cursor: pointer;
 	    overflow: hidden;
 	    white-space: nowrap;
-	    user-select: none;
-        
+	    user-select: none;        
+        margin-top: 1rem;
 
         background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;;
         font-family: Minecraftia;
+        text-shadow: 2px 2px #202013CC;
         font-size: small;
         image-rendering: pixelated;
 
